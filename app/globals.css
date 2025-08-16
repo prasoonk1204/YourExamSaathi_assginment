@@ -24,3 +24,53 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    color 0.3s ease;
+}
+.transition-all {
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+@keyframes moveRadial {
+  0% {
+    background-position: left top;
+  }
+  25% {
+    background-position: right top;
+  }
+  50% {
+    background-position: right bottom;
+  }
+  75% {
+    background-position: left bottom;
+  }
+  100% {
+    background-position: left top;
+  }
+}
+
+.bg-animated-radial {
+  background: radial-gradient(
+    circle,
+    #feac2f,
+    #9b32ad,
+    #381ab2,
+    #17082c
+  );
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+  animation: moveRadial 20s linear infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
