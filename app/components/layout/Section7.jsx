@@ -49,7 +49,7 @@ export default function Section7() {
   ];
 
   return (
-    <div className="w-full h-140 px-6 my-10">
+    <div className="w-full sm:h-140 sm:px-6 my-10">
       <h1 className="text-5xl text-center mb-12">
         What students say about us!
       </h1>

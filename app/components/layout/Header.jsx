@@ -26,8 +26,8 @@ export default function Header() {
 
   return (
     <>
-      <div className="max-w-[1600px] fixed top-0 w-full z-30 bg-white/60 dark:bg-black/30 backdrop-blur-md transition-all duration-500 ease-in-out">
-        <div className="flex items-center justify-between px-6 lg:px-12 py-4">
+      <div className="fixed top-0 w-full z-30 bg-white/60 dark:bg-black/30 backdrop-blur-md transition-all duration-500 ease-in-out">
+        <div className="max-w-[1600px] mx-auto flex items-center justify-between px-6 lg:px-12 py-4">
           <div className="flex items-center gap-4">
             <button
               className="lg:hidden"

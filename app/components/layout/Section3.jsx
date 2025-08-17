@@ -21,7 +21,7 @@ export default function Section3() {
 
   return (
     <div
-      className="w-full gap-20 flex flex-col justify-between rounded-2xl px-8 py-11 text-white mt-10 mb-16 xl:mb-20"
+      className="w-full gap-20 flex flex-col justify-between rounded-2xl px-4 sm:px-8 py-11 text-white mt-10 mb-16 xl:mb-20"
       style={{
         background: "radial-gradient(circle, #17082c,#381ab2,#9b32ad, #feac2f)",
         backgroundSize: "200% 200%",

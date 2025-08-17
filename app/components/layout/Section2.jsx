@@ -19,12 +19,12 @@ export default function Section2() {
           alt="img"
           className="animate-[spin_10s_linear_infinite]"
         />
-        <h1 className="absolute top-[40%] text-center text-5xl w-full">
+        <h1 className="absolute top-[30%] sm:top-[35%] text-center text-4xl sm:text-5xl w-full">
           Product By <br />
           Naval Innovators
         </h1>
       </div>
-      <div className="flex w-full justify-between px-4">
+      <div className="flex w-full justify-between px-4 flex-wrap gap-4">
         {Person.map((item) => {
           return (
             <PersonCard

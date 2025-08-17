@@ -17,7 +17,7 @@ export default function Section4() {
     ];
 
   return (
-    <div className="w-full md:h-140 px-6 my-10 flex flex-col lg:flex-row">
+    <div className="w-full md:h-140 sm:px-6 my-10 flex flex-col lg:flex-row">
       <h1 className="text-5xl flex-1">
         Checkout free stuff!
       </h1>

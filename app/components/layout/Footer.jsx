@@ -28,7 +28,7 @@ export default function Footer() {
     },
   ];
   return (
-    <div className="flex flex-col lg:flex-row justify-between w-full p-12 xl:p-16 border-t border-zinc-400 dark:border-zinc-600 gap-10 lg:gap-20 lg:h-100">
+    <div className="flex flex-col lg:flex-row justify-between w-full py-4 sm:p-12 xl:p-16 border-t border-zinc-400 dark:border-zinc-600 gap-10 lg:gap-20 lg:h-100">
       <div className="flex-1 flex flex-col md:flex-row gap-12 justify-between">
         <div className="order-2 md:order-1 flex flex-col gap-8 justify-between">
           <div>

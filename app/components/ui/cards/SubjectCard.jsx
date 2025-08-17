@@ -11,7 +11,7 @@ export default function SubjectCard({ img, title, desc, tags }) {
           </p>
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex gap-2 sm:gap-3 flex-wrap">
           {tags.map((tag, index) => {
             return (
               <h2
