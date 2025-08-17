@@ -16,7 +16,7 @@ export default function Section6() {
       <button className="bg-white text-black px-8 py-3 text-sm rounded-lg z-10">
         Contact Us
       </button>
-      <h1 className={`${dmSerif.className} text-[350px] font-normal absolute opacity-5`}>YES</h1>
+      <h1 className={`${dmSerif.className} text-[200px] md:text-[350px] font-normal absolute opacity-5`}>YES</h1>
     </div>
   );
 }

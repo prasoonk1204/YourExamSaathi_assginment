@@ -29,9 +29,9 @@ export default function Section4() {
     ];
 
   return (
-    <div className="w-full h-140 px-6 my-10 flex flex-col gap-6">
+    <div className="w-full lg:h-140 px-6 my-10 flex flex-col gap-6">
       <h1 className="text-5xl text-center mb-8">Blogs & Articles</h1>
-      <div className="flex gap-4">
+      <div className="flex gap-4 flex-wrap lg:flex-nowrap justify-center">
         {Blogs.map((item, index) => {
           return (
             <BlogCard

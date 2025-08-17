@@ -10,7 +10,7 @@ export default function Section2() {
   ];
 
   return (
-    <div className="w-full px-40 xl:px-64 my-16 xl:my-20 flex flex-col items-center gap-16 xl:gap-24">
+    <div className="w-full md:p-20 lg:px-40 xl:px-64 lg:my-16 xl:my-20 flex flex-col items-center gap-16 xl:gap-24">
       <div className="relative">
         <Image
           src="/img1.png"
@@ -41,7 +41,7 @@ export default function Section2() {
           Lorem ipsum dolor sit amet consectetur adipis icing elit. Dolor,
           deserunt.
         </h1>
-        <p className="w-3/4 text-justify mx-auto text-sm text-zinz-900 dark:text-zinc-100">
+        <p className="w-3/4 text-justify mx-auto text-sm text-zinz-900 dark:text-zinc-200">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
           quibusdam mollitia minus, magni et corrupti ut error obcaecati aliquam
           alias reiciendis modi, aperiam deleniti iure nostrum autem eum ab

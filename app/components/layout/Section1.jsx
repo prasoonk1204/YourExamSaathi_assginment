@@ -7,9 +7,9 @@ const dmSerif = DM_Serif_Text({
 
 export default function Section1() {
   return (
-    <div className="w-full h-140 flex px-6 py-16">
-      <div className="flex-3">
-        <h1 className="text-5xl mb-6 leading-14">
+    <div className="w-full lg:h-140 flex flex-col md:flex-row gap-8 px-6 py-16 relative">
+      <div className="flex-1 lg:flex-3">
+        <h1 className="text-4xl lg:text-5xl mb-6 lg:leading-14">
           For every student, Every classroom. <br /> Every Doubt.
         </h1>
         <p className="text-sm w-1/2 text-zinc-600 dark:text-zinc-400">
@@ -17,7 +17,7 @@ export default function Section1() {
           labore, veritatis necessitatibus officiis enim consequatur.
         </p>
       </div>
-      <div className="flex-2 h-full text-justify flex items-end relative">
+      <div className="flex-1 lg:flex-2 h-full text-justify flex lg:items-end relative">
         <p className="text-sm">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -33,12 +33,12 @@ export default function Section1() {
           ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
           Duis autem vel eum iriure dolor in hendrerit.
         </p>
-        <h1
-          className={`${dmSerif.className} text-[150px] lg:text-[220px] xl:text-[320px] font-normal absolute opacity-5 top-[15]`}
-        >
-          YES
-        </h1>
       </div>
+      <h1
+        className={`${dmSerif.className} text-[220px] xl:text-[320px] font-normal absolute opacity-5 top-[15] right-10`}
+      >
+        YES
+      </h1>
     </div>
   );
 }

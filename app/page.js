@@ -11,7 +11,8 @@ import Section7 from "./components/layout/Section7";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors flex justify-center items-start relative">
+    <div className="min-h-screen bg-white text-black dark:bg-black dark:text-zinc-50 transition-colors flex justify-center items-start relative">
+      <Header />
       <main className="flex max-w-[1600px] w-full justify-center items-center flex-col pt-24 px-6">
         <Hero />
         <Section1 />
@@ -23,9 +24,7 @@ export default function Home() {
         <Section7 />
         <Footer />
       </main>
-      <div className="fixed flex max-w-[1600px] w-full justify-center items-center flex-col z-20">
-        <Header />
-      </div>
+      
     </div>
   );
 }
